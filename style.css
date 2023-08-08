@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color{
+    background-color: black;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.kid img{
+    width: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.mac h3{
+    color: white;
+    margin-right: 450px;
+}
+.items ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.items ul li{
+    list-style: none;
+    color: white;
+}
+.map{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+}
+.news h6{
+    color: white;
+    margin-bottom: 20px;
+}
+.news h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.news p{
+    color: white;
+}
+.news b{
+    color: red;
+}
+.picture img{
+    width: 300px;
+    margin-top: -160px;
+}
+.pak{
+    margin: 95px;
+}
+.pak h1{
+    color: white;
+}
+.zim{
+    display: flex;
+    justify-content: space-around;
+}
+.ind h5{
+    color: white;
+    height: 30px;
+    margin-top: -60px;
+}
+.ind h6{
+    color: white;
+    height: 20px;
+}
+@media(max-width:480px){
+    .color{
+        background-color: black;
+    }
+    .parent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+    .kid img{
+        width: 25px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .mac h3{
+        color: white;
+        margin-right: 450px;
+    }
+    .items ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .items ul li{
+        list-style: none;
+        color: white;
+    }
+    .map{
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 0px;
+    }
+    .news h6{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .news h1{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .news p{
+        color: white;
+    }
+    .news b{
+        color: red;
+    }
+    .picture img{
+        width: 300px;
+        margin-top: -160px;
+    }
+    .pak{
+        margin: 95px;
+    }
+    .pak h1{
+        color: white;
+    }
+    .zim{
+        display: flex;
+        justify-content: space-around;
+    }
+    .ind h5{
+        color: white;
+        height: 30px;
+        margin-top: -60px;
+    }
+    .ind h6{
+        color: white;
+        height: 20px;
+    }
+}
